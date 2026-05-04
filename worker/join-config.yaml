@@ -3,7 +3,7 @@ kind: JoinConfiguration
 
 discovery:
   bootstrapToken:
-    token: s94mr.qv4ew0wriv0y3ymv   # เปลี่ยน
+    token:   c22lmp.c51waih2jokd8t7r   # เปลี่ยน
     apiServerEndpoint: "192.168.1.129:6443"  # IP Master
     caCertHashes:
       - "sha256:c722f7bf66c561983b6f1d2897da8a7af5e877ba2ff320cbd334d2c4eb345e7d"  # เปลี่ยน
