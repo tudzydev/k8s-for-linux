@@ -1,0 +1,15 @@
+apiVersion: kubeadm.k8s.io/v1beta3
+kind: JoinConfiguration
+
+discovery:
+  bootstrapToken:
+    token: s94mr.qv4ew0wriv0y3ymv   # เปลี่ยน
+    apiServerEndpoint: "192.168.1.129:6443"  # IP Master
+    caCertHashes:
+      - "sha256:c722f7bf66c561983b6f1d2897da8a7af5e877ba2ff320cbd334d2c4eb345e7d"  # เปลี่ยน
+
+nodeRegistration:
+  name: worker-node
+  criSocket: "unix:///run/containerd/containerd.sock"
+  kubeletExtraArgs:
+    cgroup-driver: "systemd"
