@@ -3,10 +3,10 @@ kind: JoinConfiguration
 
 discovery:
   bootstrapToken:
-    token:   c22lmp.c51waih2jokd8t7r   # เปลี่ยน
+    token:   w1awg6.xnw5dga09o9iehv3   # เปลี่ยน
     apiServerEndpoint: "192.168.1.129:6443"  # IP Master
     caCertHashes:
-      - "sha256:c722f7bf66c561983b6f1d2897da8a7af5e877ba2ff320cbd334d2c4eb345e7d"  # เปลี่ยน
+      - "sha256:601ecaaf14e38e5d03a63ea6d7a6072b03b4abd30962c6ea2af8d27ef3d0d702"  # เปลี่ยน
 
 nodeRegistration:
   name: worker-node-1 # name is optional, if not provided, the hostname will be used
