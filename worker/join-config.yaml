@@ -9,7 +9,7 @@ discovery:
       - "sha256:c722f7bf66c561983b6f1d2897da8a7af5e877ba2ff320cbd334d2c4eb345e7d"  # เปลี่ยน
 
 nodeRegistration:
-  name: worker-node
+  name: worker-node-1 # name is optional, if not provided, the hostname will be used
   criSocket: "unix:///run/containerd/containerd.sock"
   kubeletExtraArgs:
     cgroup-driver: "systemd"
